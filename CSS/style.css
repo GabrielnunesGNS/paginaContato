@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+   
+   
+
+
+    a{
+        text-decoration: none;
+    }
+    
+    h1{
+       font-size: 2rem; 
+    }
+
+    .container{
+        background-color: #2b3c48;
+        background-position: center;
+        background-size:cover ; 
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    
+
+    .container-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        
+    }
+
+    .logo{
+        width: 200px;
+        border-radius: 50%;
+
+    }
+
+    h1{
+        text-align: center;
+        margin: 1rem
+        
+    }
+
+   
+
+    .botton-links{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top:1.2rem;
+        border: 2px solid #245027;
+        border-radius: 22px;
+        background-color: #fff;
+        
+
+    }
+
+    .container-items{
+        width: 25%;
+        padding: 2rem;
+        border: 1px solid #c8c8c8;
+        border-radius: 11px;
+        background-color: #F9F5F4;
+        
+        
+    }
+
+
+    .name{
+        display: flex;
+        align-items:center;
+        font-size: 24px;
+        font-family:'Open Sans', sans-serif; 
+        color: #000;
+        cursor: pointer;
+        padding: 1rem;
+        transition: 300ms;
+    }
+
+    .name:hover{
+        background-color: #d4d4d4;
+    }
+
+    .botton-icon{
+        height: 50px;
+        width: 50px;
+        margin-right: .5rem;
+    }
+ 
+
+@media(max-width:1200px){
+    .container-items{
+        width: 60%;
+    }
+    
+    .name{
+    font-size: 1rem ; 
+    }
+}
+
+
+
+@media ( max-width:550px ) {
+
+    a{
+        text-decoration: none;
+    }
+    
+    h1{
+        text-align: center;
+        word-break: break-all;
+       font-size: 1.2rem;
+
+    }
+    .logo{
+        width: 130px;
+    }
+    .container{
+        background-image: url(..//assets/image/imagem-de-fundo.png);
+        background-position: center;
+        background-size:cover ; 
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .container-items{
+        width: 80%;
+        padding: 1rem 0.5rem;
+        border: 1px solid #c8c8c8;
+        border-radius: 11px;
+        background-color: #F9F5F4;
+    }
+
+    .container-logo{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        
+        
+    }
+
+    .logo-samsara{
+        height: 150px;
+        width: 150px;
+        
+    }
+
+    .container-botton{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .botton-links{
+        background-color: rgba(255, 255, 255, 0.5);
+    margin-top: .6rem;
+        width: auto;
+        font-size: 1rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        border: 1px solid #245027;
+        border-radius: 22px;
+        padding: 0 .8rem ;
+    }
+
+    
+    
+
+    .botton-icon{
+        padding: 5px;
+        height: 40px;
+        width: 40px;
+        margin-left: 0rem;
+
+    }
+} 
+
+
+
